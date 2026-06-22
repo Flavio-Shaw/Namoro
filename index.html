@@ -35,6 +35,8 @@
     display: none; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 24px; z-index: 100;
   }
   .aceitou.show { display: flex; }
+  .requisitos { margin-top: 20px; background: rgba(255,255,255,0.15); border-radius: 16px; padding: 16px 24px; text-align: left; max-width: 340px; }
+  .requisitos p { font-size: 1rem; color: #fff; margin: 4px 0; line-height: 1.5; }
   .aceitou h2 { color:#fff; font-size: clamp(2.2rem,9vw,4rem); text-shadow: 0 3px 18px rgba(0,0,0,.4); animation: pop .5s ease; }
   .aceitou p { color:#fff; font-size: 1.4rem; margin-top: 16px; }
   @keyframes pop { 0%{transform:scale(.3);opacity:0;} 100%{transform:scale(1);opacity:1;} }
@@ -51,6 +53,11 @@
   <div class="aceitou" id="aceitou">
     <h2>Eba! Agora a gente é namorado(a)! 💕</h2>
     <p>Te amo! 😍🌹</p>
+    <div class="requisitos">
+      <p><strong>Requisitos:</strong></p>
+      <p>Ser católica não é uma opção.</p>
+      <p>Deus em primeiro lugar, o resto a gente corre atrás. 🙏</p>
+    </div>
   </div>
 <script>
   const btnNao = document.getElementById('btnNao');
